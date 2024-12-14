@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuickRent - Rent Gadgets Easily</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">QuickRent</div>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#gadgets">Listings</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="sign-up" onclick="location.href='signup.html'">Sign Up</button>
+        </nav>
+    </header>
+
+    <section id="hero" class="hero-banner">
+        <div class="hero-content">
+            <h1>Rent Gadgets, Hassle-Free!</h1>
+            <p>Explore a wide variety of gadgets at affordable prices.</p>
+            <button class="cta-button">Explore Rentals</button>
+        </div>
+        <div class="hero-image">
+            <img src="assets/hero1.jpg" alt="Gadget Rentals">
+        </div>
+    </section>    
+
+    <section id="features" class="features">
+        <h2>Why Choose QuickRent?</h2>
+        <div class="feature-cards">
+            <div class="feature-card">
+                <img src="assets/icon1.png" alt="Variety">
+                <h3>Wide Variety of Gadgets</h3>
+                <p>From laptops to cameras, we have it all.</p>
+            </div>
+            <div class="feature-card">
+                <img src="assets/icon2.png" alt="Pricing">
+                <h3>Affordable Pricing</h3>
+                <p>Get the best deals on rentals.</p>
+            </div>
+            <div class="feature-card">
+                <img src="assets/icon3.png" alt="Delivery">
+                <h3>Quick Delivery</h3>
+                <p>Fast and reliable delivery at your doorstep.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="gadgets" class="gadgets">
+        <h2>Available Gadgets</h2>
+        <div class="gadget-list">
+            <div class="gadget-item">
+                <img src="assets/laptop.jpg" alt="Laptop">
+                <h3>Laptop</h3>
+                <p>Price: $50/week</p>
+            </div>
+            <div class="gadget-item">
+                <img src="assets/camera.jpg" alt="Camera">
+                <h3>Camera</h3>
+                <p>Price: $30/week</p>
+            </div>
+            <div class="gadget-item">
+                <img src="assets/console.jpg" alt="Console">
+                <h3>Gaming Console</h3>
+                <p>Price: $40/week</p>
+            </div>
+        </div>
+        <button class="list-gadget">List Your Gadget</button>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <input type="text" placeholder="Name" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 QuickRent. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
